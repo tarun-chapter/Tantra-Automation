@@ -39,10 +39,6 @@ public class Admin_login {
 		
 		
 		Admin_page login = new Admin_page();
-		
-		
-		
-		
 		//UserDetail user = (UserDetail) dataContainer.getUserData().get(0);
 		
 		login.Email(driver).sendKeys(user.getUsername());
